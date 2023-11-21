@@ -1,9 +1,41 @@
 {
-    "nodes": [
-      { "id": 1, "title": "json-server", "author": "typicode" }
-    ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 }
-    ],
-    "profile": { "name": "typicode" }
-  }
+  "nodes": [
+    {
+      "id": "1",
+      "data": {
+        "label": "Node 1"
+      },
+      "position": {
+        "x": 100,
+        "y": 100
+      }
+    },
+    {
+      "id": "2",
+      "data": {
+        "label": "Node 2"
+      },
+      "position": {
+        "x": 200,
+        "y": 200
+      }
+    },
+    {
+      "body": {},
+      "id": "9oFaDXX"
+    },
+    {
+      "body": {},
+      "id": "NK_T5VD"
+    },
+    {
+      "id": "cRQAhz5"
+    },
+    {
+      "id": "SfaHExr"
+    },
+    {
+      "id": "5Ovd0_g"
+    }
+  ]
+}

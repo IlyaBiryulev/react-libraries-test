@@ -19,18 +19,18 @@ function Flow({initialNodes, initialEdges}: any) {
 
   const handleChange = (e: any) => {
     setTtitle(e.target.value)
-    }
+  }
     
   const onAdd = (e: any) => {
     e.preventDefault();
     const id = getNodeId();
     const newNode = {
-        id,
-        data: { label: title },
-        position: {
-            x: 0,
-            y: 0 + (nodes.length + 1) * 20
-        }
+      id,
+      data: { label: title },
+      position: {
+        x: 0,
+        y: 0 + (nodes.length + 1) * 20
+      }
     };
     setNodes((nds) => nds.concat(newNode));
   };
